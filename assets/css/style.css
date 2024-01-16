@@ -1158,7 +1158,11 @@ div.august {
   height: 1000px;
 }
 
-
+div.padding_adjust {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+}
 
 .column {
   float: left;

@@ -24,6 +24,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
   <!-- =======================================================
   * Template Name: Siimple - v4.9.0
@@ -70,11 +71,39 @@
   <div id="sub-hero">
   </div>
   <!-- #hero -->
-
+  <script src="assets/js/swiper-bundle.min.js"></script>
   <main id="main">
-
-    <!-- ======= About Section ======= -->
     <section id="about" class="about">
+      <div class="august container">
+        <!-- ======= About Section ======= -->
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="assets/img/team.png" class="img-stack" alt></div>
+            <div class="swiper-slide"><img src="assets/img/duo.png" class="img-stack" alt></div>
+            <div class="swiper-slide"><img src="assets/img/work.png" class="img-stack" alt></div>
+          </div>
+
+
+          <!-- 如果需要导航按钮 -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+
+        </div>
+        <div class="col-lg-6 pt-4 pt-lg-0 padding_adjust">
+          <h3>August 3rd Togeloma Sale</h3>
+          <p>On August 3rd, Togeloma launched its first sale projects in
+            collaboration with BC Children’s Hospital. The event’s aim is
+            to raise money for the hospital’s cancer research project and
+            promote awareness of childhood cancer. The items we sold
+            include Togeloma T-shirts and accessories. Designed by
+            Togeloma’s designer, Kelly, and in the end, we have been able
+            to raise more than 800 dollars thanks to everyone’s
+            support.</p>
+        </div>
+      </div>
+    </section>
+    <!-- <section id="about" class="about">
       <div class="container">
 
         <div class="row">
@@ -100,7 +129,8 @@
         </div>
 
       </div>
-    </section><!-- End About Section -->
+    </section> -->
+    <!-- End About Section -->
 
     <!-- ======= Contact Us Section ======= -->
     <section id="contact" class="contact section-bg">
@@ -195,6 +225,24 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    var mySwiper = new Swiper('.swiper', {
+      autoplay: true,//等同于以下设置
+      /*autoplay: {
+        delay: 3000,
+        stopOnLastSlide: false,
+        disableOnInteraction: true,
+        },*/
+    });
+    var mySwiper = new Swiper('.swiper', {
+      loop: true,
+
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    })        
+  </script>
 
 
 </body>

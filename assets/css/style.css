@@ -1158,11 +1158,7 @@ div.august {
   height: 1000px;
 }
 
-div.padding_adjust {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
+
 
 .column {
   float: left;
@@ -1201,20 +1197,4 @@ div.padding_adjust {
 .title {
   color: grey;
   text-align: center
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
 }

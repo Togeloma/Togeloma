@@ -518,6 +518,7 @@ h6,
   flex-direction: column;
   text-align: center;
   padding: 0 15px;
+  overflow: hidden;
 }
 
 #hero h1 {
